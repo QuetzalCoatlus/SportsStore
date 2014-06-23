@@ -8,6 +8,7 @@ using SportsStore.Domain.Abstract;
 using SportsStore.Domain.Concrete;
 using SportsStore.Domain.Entities;
 using SportsStore.WebUI.Controllers;
+using SportsStore.WebUI.Models;
 
 namespace SportsStore.UnitTests
 {
@@ -18,7 +19,7 @@ namespace SportsStore.UnitTests
       public void CanPaginate()
       {
          ProductController paginationController = PaginationArrange();
-         IEnumerable<Product> paginationResult = PaginationAct(paginationController);
+         ProductsListViewModel paginationResult = PaginationAct(paginationController);
          PaginationAssert(paginationResult);
       }
 
@@ -40,14 +41,14 @@ namespace SportsStore.UnitTests
          return controller;
       }
 
-      private IEnumerable<Product> PaginationAct(ProductController controller)
+      private ProductsListViewModel PaginationAct(ProductController controller)
       {
-         return (IEnumerable<Product>)controller.List(2).Model;
+         return (ProductsListViewModel)controller.List(2).Model;
       }
 
-      private void PaginationAssert(IEnumerable<Product> result)
+      private void PaginationAssert(ProductsListViewModel result)
       {
-         Product[] products = result.ToArray();
+         Product[] products = result.Products.ToArray();
          Assert.IsTrue(products.Length == 2);
          Assert.AreEqual(products[0].Name, "P4");
          Assert.AreEqual(products[1].Name, "P5");
