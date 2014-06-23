@@ -43,7 +43,7 @@ namespace SportsStore.UnitTests
 
       private ProductsListViewModel PaginationAct(ProductController controller)
       {
-         return (ProductsListViewModel)controller.List(2).Model;
+         return (ProductsListViewModel)controller.List(null, 2).Model;
       }
 
       private void PaginationAssert(ProductsListViewModel result)

@@ -41,7 +41,7 @@ namespace SportsStore.UnitTests
 
       private ProductsListViewModel PageLinkAct()
       {
-         return (ProductsListViewModel)controller.List(2).Model;
+         return (ProductsListViewModel)controller.List(null, 2).Model;
       }
 
       private void PageLinkAssert(ProductsListViewModel result)

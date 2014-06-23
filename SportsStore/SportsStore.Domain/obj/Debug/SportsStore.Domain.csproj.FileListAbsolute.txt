@@ -8,3 +8,13 @@ C:\Users\FantasyZone\Documents\GitHub\SportsStore\SportsStore\SportsStore.Domain
 C:\Users\FantasyZone\Documents\GitHub\SportsStore\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\FantasyZone\Documents\GitHub\SportsStore\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.dll
 C:\Users\FantasyZone\Documents\GitHub\SportsStore\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.pdb
+C:\Users\JOwusu-Dekyi\Documents\GitHub\SportsStore\SportsStore\SportsStore.Domain\bin\Debug\SportsStore.Domain.dll.config
+C:\Users\JOwusu-Dekyi\Documents\GitHub\SportsStore\SportsStore\SportsStore.Domain\bin\Debug\SportsStore.Domain.dll
+C:\Users\JOwusu-Dekyi\Documents\GitHub\SportsStore\SportsStore\SportsStore.Domain\bin\Debug\SportsStore.Domain.pdb
+C:\Users\JOwusu-Dekyi\Documents\GitHub\SportsStore\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.dll
+C:\Users\JOwusu-Dekyi\Documents\GitHub\SportsStore\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\JOwusu-Dekyi\Documents\GitHub\SportsStore\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.xml
+C:\Users\JOwusu-Dekyi\Documents\GitHub\SportsStore\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\JOwusu-Dekyi\Documents\GitHub\SportsStore\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.csprojResolveAssemblyReference.cache
+C:\Users\JOwusu-Dekyi\Documents\GitHub\SportsStore\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.dll
+C:\Users\JOwusu-Dekyi\Documents\GitHub\SportsStore\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.pdb
