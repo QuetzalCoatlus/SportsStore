@@ -19,7 +19,7 @@
             {
                <tr>
                    <td align="center">@line.Quantity</td>
-                   <td align="left">@line.Product</td>
+                   <td align="left">@line.Product.Name</td>
                    <td align="right">@line.Product.Price.ToString("c")</td>
                    <td align="right">@((line.Quantity * line.Product.Price).ToString("c"))</td>
                </tr>
